@@ -1,0 +1,14 @@
+# 账户密码
+USER_NAME: '' 
+PASSWORD: ''
+# 邮件配置
+FROM_EMAIL: ''
+EMAIL_PASSWORD: ''
+SMTP_SERVER: 'smtp.qq.com'
+SMTP_PORT: 587
+TO_EMAIL: ''
+# 通知配置
+EMAIL: True #是否发送邮件
+SYSTEM: True #是否发送系统通知
+THRESHOLD: 20 #余额阈值
+INTERVAL: 360 #查询间隔（分钟）

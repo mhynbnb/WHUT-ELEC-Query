@@ -1,0 +1,12 @@
+# 基本依赖
+requests>=2.26.0
+PyYAML>=6.0
+
+# Selenium相关依赖
+selenium>=4.0.0
+webdriver-manager>=3.8.0
+
+# Windows通知依赖
+winotify>=0.1.0
+
+# 邮件发送依赖（使用Python标准库，无需额外安装）
