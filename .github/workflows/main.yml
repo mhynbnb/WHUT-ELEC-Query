@@ -1,6 +1,7 @@
 name: Test github actions # 工作流程的名称
  
 on: # 什么时候触发
+  workflow_dispatch:
   schedule:
     - cron: '*/5 * * * *'  # 每5分钟触发一次
  
